@@ -1,0 +1,21 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shahjalal",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data"
+    ]
+  }
+}
